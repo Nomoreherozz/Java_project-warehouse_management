@@ -19,10 +19,5 @@ public class Vehicle_class {
         Ve_3.Driver = "Driver_3";
         Ve_3.Quality = "bad";
         Ve_3.Fuel = "Empty";
-//Print
-    Ve_1.Print();
-    Ve_2.Print();
-    Ve_3.Print();
-    
     }
 }

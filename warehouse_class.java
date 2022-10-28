@@ -19,9 +19,5 @@ public class warehouse_class {
         Ware_2.light = "approved";
         Ware_2.temp = 10.5;
         Ware_2.humidity = 10;
-        
-
-        Ware_1.Print();
-        Ware_2.Print();
     }
 }

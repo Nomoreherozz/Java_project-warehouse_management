@@ -40,7 +40,11 @@ public class Employee {
         Employee_4.warehouse = "warehouse 1";
 
     }
-    public void pick(){};
-    public void ship(){};
-    public void storage(){};
+    public void isCleaning(){};
+    public void isLoading(){};
+    public void isUnloading(){};
+    public void isCounting(){};
+    public void isConfirming(){};
+    public void isFaultsChecking(){};
+    public void isStoring(){};
 }

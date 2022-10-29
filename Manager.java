@@ -19,6 +19,8 @@ public class Manager {
         Manager_2.bonus = 500;
         Manager_2.warehouse = "warehouse 2";
     }
-    public void receive(){};
-    public void check(){};
+    public void isReceiving(){};
+    public void isWarehousing(){};
+    public void isDistributing(){};
+    public void isOverseeing(){};
 }

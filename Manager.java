@@ -9,15 +9,6 @@ public class Manager {
         Manager_1.salary = 2000;
         Manager_1.bonus = 500;
         Manager_1.warehouse = "warehouse 1";
-
-        humanity Manager_2 = new humanity();
-        Manager_2.job = "manager";
-        Manager_2.name = "Frank";
-        Manager_2.age = 50;
-        Manager_2.ID = "M002";
-        Manager_2.salary = 2000;
-        Manager_2.bonus = 500;
-        Manager_2.warehouse = "warehouse 2";
     }
     public void isReceiving(){};
     public void isWarehousing(){};

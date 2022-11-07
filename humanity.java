@@ -1,4 +1,4 @@
-class humanity{
+class Staff{
     String name,job,ID,warehouse;
     int age;
     double salary;

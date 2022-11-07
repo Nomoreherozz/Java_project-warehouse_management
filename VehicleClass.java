@@ -1,4 +1,4 @@
-class Vehicle {
+class VehicleClass {
     String No;
     String Driver;
     String Quality;

@@ -11,4 +11,5 @@ public class Vehicle_class {
         Ve_1.Fuel = "Full";
         Ve_1.Location = "warehouse 1"; 
     }
+    piblic void isRefilled();
 }

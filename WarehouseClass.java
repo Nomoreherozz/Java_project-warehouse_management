@@ -1,4 +1,4 @@
-class warehouse {
+class WarehouseClass {
     String ID;
     int capacity;
     String security;

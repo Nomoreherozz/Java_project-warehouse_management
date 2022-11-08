@@ -2,7 +2,7 @@
 public class Employee {
     public static void main(String[] args) {
 
-        humanity Employee_1 = new Staff(); 
+        Staff Employee_1 = new Staff(); 
     
         Employee_1.job = "employee";
         Employee_1.name = "John";

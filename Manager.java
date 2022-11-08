@@ -1,7 +1,7 @@
 public class Manager {
     public static void main(String[] args) {
 
-        humanity Manager_1 = new Staff();
+        Staff Manager_1 = new Staff();
         Manager_1.job = "manager";
         Manager_1.name = "Anna";
         Manager_1.age = 30;

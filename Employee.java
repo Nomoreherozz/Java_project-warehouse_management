@@ -1,22 +1,8 @@
+class Employee extends Staff {
 
-public class Employee {
-    public static void main(String[] args) {
-
-        Staff Employee_1 = new Staff(); 
-    
-        Employee_1.job = "employee";
-        Employee_1.name = "John";
-        Employee_1.age = 35;
-        Employee_1.ID = "E001";
-        Employee_1.salary = 1000;
-        Employee_1.bonus = 300;
-        Employee_1.warehouse = "warehouse 2";
+    Employee(String Name, int ID, int Age, double Salary, String job, double bonus) {
+        super(Name, ID, Age, Salary);
+        job = "Employee";
+        bonus = 100;
     }
-    public void isCleaning(){};
-    public void isLoading(){};
-    public void isUnloading(){};
-    public void isCounting(){};
-    public void isConfirming(){};
-    public void isFaultsChecking(){};
-    public void isStoring(){};
 }

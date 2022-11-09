@@ -26,7 +26,11 @@ class Staff implements List {
         for(int i = 0; i < size; i++) {
             if(staffs[i].id == ID) {
                 staffs[i] = null;
-                staffs[i+1] = staffs[i];
+                for(int j = 0; j < size-i; j++) {
+                    staffs[i+j] = staffs[i+j+1];
+                    size -= 1;
+                
+                }
             }
         }
     }
@@ -38,18 +42,27 @@ class Staff implements List {
     }
     
     void searchByID(int ID) {
-        try {
+        // try {
+        //     String isExist = "NOT FOUND";
+        //     for(int i = 0; i < size; i++) {
+        //         if(staffs[i].id != ID) {
+        //         }
+        //         else {
+        //             isExist = "FOUND";
+        //         }
+        //     }
+        //     System.out.println(isExist);
+        // }
+        // catch(NullPointerException ex) {}
             String isExist = "NOT FOUND";
             for(int i = 0; i < size; i++) {
-                if(staffs[i].id != ID) {
+                if(staffs[i].id != ID || staffs[i] == null) {
                 }
                 else {
                     isExist = "FOUND";
                 }
             }
-            System.out.println(isExist);
-        }
-        catch(NullPointerException ex) {}
+        System.out.println(isExist);
     }
 
     void listShow() {
@@ -64,5 +77,11 @@ class Staff implements List {
         catch(NullPointerException ex) {
 
         }   
+    }
+
+    @Override
+    public void append(VehicleClass vehicle) {
+        
+        
     }
 }

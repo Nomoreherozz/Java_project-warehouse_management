@@ -22,26 +22,25 @@ class Staff implements List {
         staffs[size++] = staff;
     }
 
-    void deleteByID(int ID) {
+    public void deleteByID(int ID) {
         for(int i = 0; i < size; i++) {
             if(staffs[i].id == ID) {
                 staffs[i] = null;
                 for(int j = 0; j < size-i; j++) {
                     staffs[i+j] = staffs[i+j+1];
                     size -= 1;
-                
                 }
             }
         }
     }
     
-    void showInfo() {
+    public void showInfo() {
         System.out.print(   "Name: " + name + 
                             "\nAge: " + age + "\nID: " + id +
                             "\nSalary: " + salary +"$");
     }
     
-    void searchByID(int ID) {
+    public void searchByID(int ID) {
         // try {
         //     String isExist = "NOT FOUND";
         //     for(int i = 0; i < size; i++) {

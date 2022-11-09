@@ -4,6 +4,6 @@ public class warehouse {
         WarehouseClass Ware_1 = new WarehouseClass("W0001", 1000, "approved", "approved", "approved", 20.5, 40);
 
         //Ware_1.Get_ware("W0001", 1000, "approved", "approved", "approved", 20.5, 40);
-        Ware_1.Print();
+        Ware_1.Showinfo();
     }
 }

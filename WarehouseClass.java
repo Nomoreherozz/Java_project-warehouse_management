@@ -17,7 +17,7 @@ class WarehouseClass {
         this.humidity = humidity;
     }
    
-    public void Print() {
+    public void Showinfo() {
         System.out.println("Infor of warehouse:\n ID:" + ID +
                 "\n capacity(in ton):" + capacity +
                 "\n security:" + security +

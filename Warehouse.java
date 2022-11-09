@@ -1,14 +1,9 @@
-public class warehouse_class {
+public class warehouse {
 
     public static void main(String[] args) {
-        warehouse Ware_1 = new warehouse();
-//warehouse 1
-        Ware_1.ID ="W0001"; 
-        Ware_1.capacity = 1000;
-        Ware_1.security = "approved";
-        Ware_1.fire = "approved";
-        Ware_1.light = "approved";
-        Ware_1.temp = 20.5;
-        Ware_1.humidity = 10;
+        WarehouseClass Ware_1 = new WarehouseClass("W0001", 1000, "approved", "approved", "approved", 20.5, 40);
+
+        //Ware_1.Get_ware("W0001", 1000, "approved", "approved", "approved", 20.5, 40);
+        Ware_1.Print();
     }
 }

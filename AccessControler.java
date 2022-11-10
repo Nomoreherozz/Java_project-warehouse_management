@@ -41,5 +41,24 @@ public class AccessControler {
         System.out.println("delete by ID:");
         Ve_new.deleteByID("V01_W1");
         Ve_new.listShow();
+        
+    //inventory
+        InventoryClass i1 = new InventoryClass("i1", "I001", "26/01/2022", "xyz", 109.12, "xxx", "xxx");
+        InventoryClass i2 = new InventoryClass("i2", "I002", "26/01/2022", "xyz", 109.12, "xxx", "xxx");
+        InventoryClass inventorylist = new InventoryClass(5);
+    
+    //inventory method
+        i1.showInfo();
+        i2.showInfo();
+
+        inventorylist.append(i1);
+        inventorylist.append(i2);
+
+        inventorylist.SearchbyID("I001");
+
+        inventorylist.listShow();
+        inventorylist.deleteByID("I001");
+        inventorylist.listShow();
+
     }
 }

@@ -1,11 +1,11 @@
 class WarehouseClass {
-    public String ID;
-    public int capacity;
-    public String security;
-    public String fire;
-    public String light;
-    public double temp;
-    public double humidity;
+    private String ID;
+    private int capacity;
+    private String security;
+    private String fire;
+    private String light;
+    private double temp;
+    private double humidity;
     
     WarehouseClass(String ID, int capacity, String security, String fire, String light, double temp, double humidity) {
         this.ID = ID;

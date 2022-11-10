@@ -78,9 +78,5 @@ class Staff implements List {
         }   
     }
 
-    @Override
-    public void append(VehicleClass vehicle) {
-        
-        
     }
 }

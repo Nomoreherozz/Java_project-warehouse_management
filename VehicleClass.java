@@ -14,8 +14,8 @@ class VehicleClass implements List {
         this.Quality = Quality;
         this.Fuel = Fuel;
         this.Location = Location;
-    //append
     }
+//append
     VehicleClass(int length) {
         vehicles = new VehicleClass[length];
     }
@@ -68,10 +68,5 @@ class VehicleClass implements List {
                 "\n Location:" + Location + "\n");
     }
 	@Override
-	public void append(Staff staff) {
-		
-		
-	}
-  
-    
+	public void append(Staff staff) {}
 }

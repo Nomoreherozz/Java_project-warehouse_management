@@ -25,10 +25,10 @@ class VehicleClass implements List {
         vehicles[size++] = vehicle;
     }
     //search
-    void searchByID(String NO) {
+    void searchByNo(String No) {
             String isExist = "NOT FOUND";
             for(int i = 0; i < size; i++) {
-                if(vehicles[i].No != NO || vehicles[i] == null) {
+                if(vehicles[i].No != No || vehicles[i] == null) {
                 }
                 else {
                     isExist = "FOUND";
@@ -47,9 +47,9 @@ class VehicleClass implements List {
         }
     }
     //delete
-    void deleteByID(String NO) {
+    void deleteByNo(String No) {
         for(int i = 0; i < size; i++) {
-            if(vehicles[i].No == NO) {
+            if(vehicles[i].No == No) {
                 vehicles[i] = null;
                 for(int j = 0; j < size-i; j++) {
                     vehicles[i+j] = vehicles[i+j+1];

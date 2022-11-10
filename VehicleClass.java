@@ -1,10 +1,10 @@
 
 class VehicleClass implements List {
-    public String No;
-    public String Driver;
-    public String Quality;
-    public String Fuel;
-    public String Location;
+    private String No;
+    private String Driver;
+    private String Quality;
+    private String Fuel;
+    private String Location;
     private VehicleClass vehicles[];
     private int size = 0;
 
